@@ -12,3 +12,4 @@ var c = 15;
 var d = String(c); //Casting de number(c) a String(d)
 
 var e = Number(d); //Casting de String(d) a number(e)
+
