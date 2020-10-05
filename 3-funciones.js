@@ -19,8 +19,13 @@ function suma(param1,param2){
 console.log(suma(5,"10"));
 
 function saludarEstudiante(nombreEstudiante){
-    console.log("Bienvenido estudiante " + nombreEstudiante);
+    //console.log("Bienvenido estudiante " + nombreEstudiante);
+    console.log("Bienvenido estudiante " + nombreEstudiante + '\n sdfasdfasdf');
+    console.log(`Bienvenido estudiante ${nombreEstudiante} sdfasdfasdf`);
 }
+
+saludarEstudiante("Tomate");
+
 
 saludarEstudiante("José");
 
