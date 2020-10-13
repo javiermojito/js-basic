@@ -78,6 +78,7 @@ console.log(copiaJuguetes);
 
 var juguetes = ["Muñeca", "Carro", "Balón", "Tractor"];
 var copiaJuguetes = ["SOY UN ELEMENTO", ...juguetes, "estoy al final"];
+//Spread operator
 console.log(juguetes);
 console.log(copiaJuguetes);
 

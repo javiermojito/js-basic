@@ -57,6 +57,4 @@ do{
     console.log("Di un paso");
     pasoActual++;
 }
-while(pasoActual < numPasos)
-
-
+while(pasoActual < numPasos);
