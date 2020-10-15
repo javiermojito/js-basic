@@ -35,5 +35,5 @@ else{
 
 var edad = 19;
 
-var mensajeFinal = edad > 18? "Bienvenide al bar" : "Lo sentimos, no tienes edad para entrar al bar";
+var mensajeFinal = edad >= 18? "Bienvenide al bar" : "Lo sentimos, no tienes edad para entrar al bar";
 console.log(mensajeFinal);

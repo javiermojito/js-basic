@@ -136,8 +136,7 @@ console.log(tempY == tempZ);
 console.log(tempY === tempZ);
 
 ////
-
-var persona = {
+var personaObj = {
     nombre: "Javier",
     edad: 21
 }
@@ -146,10 +145,10 @@ function nombreEnMayuscula(nombre){
     return nombre.toUpperCase();
 }
 
-nombreEnMayuscula(persona.nombre);
+nombreEnMayuscula(personaObj.nombre);
 
 //
-var persona = {
+var personaObj = {
     nombre: "Camilo",
     edad: 21
 }
@@ -161,10 +160,10 @@ function nombreEnMayuscula(personaObj){
     return nombre.toUpperCase();
 }
 
-console.log(nombreEnMayuscula(persona));
+console.log(nombreEnMayuscula(personaObj));
 
 //Truco
-var persona = {
+var personaObj = {
     nombre: "Santiago",
     edad: 46
 }
@@ -176,10 +175,10 @@ function nombreEnMayuscula(personaObj){
     return nombre.toUpperCase() + " " +edad;
 }
 
-console.log(nombreEnMayuscula(persona));
+console.log(nombreEnMayuscula(personaObj));
 
 //
-var persona = {
+var personaObj = {
     edad: 21
 }
 
@@ -191,7 +190,7 @@ function nombreEnMayuscula({ nombre }){
 console.log(nombreEnMayuscula({edad: "Otro"}));
 
 //OJO
-var persona = {
+var personaObj = {
     nombre: "Javier",
     edad: 21
 }
@@ -200,11 +199,11 @@ function cumpliranios(personaObj){
     personaObj.edad += 1;
 }
 
-cumpliranios(persona);
-console.log(persona.edad);
+cumpliranios(personaObj);
+console.log(personaObj.edad);
 
 //Crear una copia de mi modificacion
-var persona = {
+var personaObj = {
     nombre: "Javier",
     edad: 21
 }
@@ -217,22 +216,22 @@ function cumpliranios(personaObj){
     }
 }
 
-var copia = cumpliranios(persona);
-console.log(persona);
+var copia = cumpliranios(personaObj);
+console.log(personaObj);
 console.log(copia);
 
 //una cosa superimportante
 
-var persona={
+var personaObj={
     nombre: "Javier",
     edad: 21,
     hobbies: {
         artes: true,
         ciencias: true,
         deportes: false,
-        literatura: false,
+        literatura: false
     }
 }
 
-console.log(persona.hobbies.artes);
-console.log(persona.hobbies);
+console.log(personaObj.hobbies.artes);
+console.log(personaObj.hobbies);
